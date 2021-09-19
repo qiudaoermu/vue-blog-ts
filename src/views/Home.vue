@@ -16,6 +16,6 @@ import { Component, Vue } from "vue-property-decorator";
   },
 })
 export default class extends Vue {
-  private flag = "fkag";
+  private flag = "fkago";
 }
 </script>
