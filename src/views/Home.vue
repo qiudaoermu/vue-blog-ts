@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <p>{{ flag }}</p>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    hello wolrd this is blog list
+    <search />
   </div>
 </template>
 
 <script lang="ts">
-import HelloWorld from "@/components/HelloWorld.vue";
 import { Component, Vue } from "vue-property-decorator";
+import search from "@/components/Search.vue";
 @Component({
   name: "home",
   components: {
-    HelloWorld,
+    search,
   },
 })
 export default class extends Vue {
