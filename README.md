@@ -1,5 +1,9 @@
 # vue-blog-ts
+博客系统
 
+# 技术栈:
+* 前端 ts + vue-cli
+* 后端 go
 ## Project setup
 ```
 yarn install
